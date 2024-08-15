@@ -1,0 +1,19 @@
+.navigation-links p, .copyright p  {
+    padding: 8px;
+}
+.navigation-links p:nth-child(odd) {
+    margin-top: 4px;
+}
+.social-media-link, .navigation-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media-link {
+    float: right;
+}
+.social-media-link p {
+    padding: 12px;
+}
+.main-div {
+    background-color: #f8f9fa;
+}
